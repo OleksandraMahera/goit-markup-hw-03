@@ -242,10 +242,6 @@ button {
 
 }
 
-.values-item:first-child {
-    width: calc((100% - 72px) / 4);
-}
-
 .values-item:not(:nth-child(4n)) {
     margin-right: 24px;
 }
