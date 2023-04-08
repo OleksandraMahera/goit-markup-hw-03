@@ -189,7 +189,7 @@ button {
 
 .hero-title {
     margin-bottom: 48px;
-    max-width: 497px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
 
@@ -209,6 +209,7 @@ button {
     border: 0;
     padding: 0;
     padding: 16px 32px;
+    min-width: 169px;
 
     font-family: 'Roboto';
     font-weight: 500;
@@ -231,9 +232,6 @@ button {
 }
 
 /* values */
-.values {}
-
-
 .values-title {
     visibility: hidden;
 }
@@ -303,8 +301,6 @@ button {
     flex-basis: calc(100% / 4 - 24px);
 }
 
-.services-img {}
-
 /* team */
 .team {
     background-color: var(--light-background);
@@ -345,11 +341,9 @@ button {
 
 }
 
-.team-member-photo {}
-
 .name-position {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .name {
@@ -413,6 +407,10 @@ button {
     padding: 96px 0 120px;
 }
 
+.section-works {
+    padding: 96px 0 120px;
+}
+
 /* works-buttons (filters) */
 
 .works-title {
@@ -425,8 +423,6 @@ button {
     justify-content: center;
     margin-bottom: 72px;
 }
-
-.works-item {}
 
 .works-btn {
     display: block;
@@ -442,7 +438,7 @@ button {
 
     color: var(--acent-color);
     background-color: var(--sutle-backgrounds);
-    border: 1px solid transparent;
+    border: 1px solid var(--sutle-backgrounds);
     border-radius: 4px;
     padding: 12px 24px;
 }
