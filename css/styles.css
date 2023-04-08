@@ -242,7 +242,7 @@ button {
 
 }
 
-.values-item:nth-child(1) {
+.values-item:first-child {
     width: calc((100% - 72px) / 4);
 }
 
@@ -460,7 +460,7 @@ button {
     row-gap: 48px;
 }
 
-.card:nth-child(1) {
+.card:first-child {
     width: calc((100%-48px)/3);
 }
 
