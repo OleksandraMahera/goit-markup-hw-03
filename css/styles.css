@@ -452,8 +452,8 @@ button {
     row-gap: 48px;
 }
 
-.card:first-child {
-    width: calc((100%-48px)/3);
+.card {
+    width: calc((100% - 48px) / 3);
 }
 
 
