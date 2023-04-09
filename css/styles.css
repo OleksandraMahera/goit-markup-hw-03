@@ -242,10 +242,6 @@ button {
 
 }
 
-.values-item:not(:nth-child(4n)) {
-    margin-right: 24px;
-}
-
 .values-subtitle {
     margin-bottom: 8px;
 
@@ -261,6 +257,10 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.values-item {
+    width: calc((100% - 72px) / 4);
 }
 
 /* services */
@@ -399,10 +399,6 @@ button {
 }
 
 /* portfolio */
-.container-portfolio {
-    padding: 96px 0 120px;
-}
-
 .section-works {
     padding: 96px 0 120px;
 }
